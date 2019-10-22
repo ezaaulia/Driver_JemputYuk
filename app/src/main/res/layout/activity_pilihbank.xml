@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.driverjemputyuk.activity_pilihbank"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_bank1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Bank 1"
+                    android:layout_marginTop="100dp"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:id="@+id/btn_bank2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Bank 2"
+                    android:layout_marginTop="180dp"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:id="@+id/btn_bank3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Bank 3"
+                    android:layout_marginTop="260dp"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:id="@+id/btn_bank4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Bank 4"
+                    android:layout_marginTop="340dp"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

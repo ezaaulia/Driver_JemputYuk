@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.driverjemputyuk.activity_pilihnotif"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/foto_anak"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/fotoanak"
+                    android:contentDescription="TODO" />
+
+                <TextView
+                    android:id="@+id/tv_nama_anak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Nama : Udin"
+                    android:textSize="20sp"
+                    android:layout_marginTop="200dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tv_alamat_rumah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Alamat Rumah : Jalan Terus"
+                    android:textSize="20sp"
+                    android:layout_marginTop="232dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2"/>
+
+                <TextView
+                    android:id="@+id/tv_alamat_tujuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Alamat Tujuan : SD Negeri 16 Pontianak"
+                    android:textSize="20sp"
+                    android:layout_marginTop="264dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2"/>
+
+                <TextView
+                    android:id="@+id/tv_lama_boking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Lama Boking : 1 Hari"
+                    android:textSize="20sp"
+                    android:layout_marginTop="296dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2"/>
+
+                <TextView
+                    android:id="@+id/tv_tgl_boking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Tanggal Boking: 29 November 2019"
+                    android:textSize="20sp"
+                    android:layout_marginTop="328dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2"/>
+
+                <TextView
+                    android:id="@+id/tv_jasa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Jasa : Antar"
+                    android:textSize="20sp"
+                    android:layout_marginTop="360dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2"/>
+
+                <TextView
+                    android:id="@+id/tv_waktu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Waktu : 06.00 WIB"
+                    android:textSize="20sp"
+                    android:layout_marginTop="392dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/tv_jlh_anak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Jumlah Anak : 1"
+                    android:textSize="20sp"
+                    android:layout_marginTop="424dp"
+                    android:textAlignment="center"
+                    android:minLines="1"
+                    android:maxLines="2"/>
+
+                <Button
+                    android:id="@+id/btn_tolak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Tolak"
+                    android:layout_marginTop="570dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:id="@+id/btn_terima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Terima"
+                    android:layout_marginTop="570dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

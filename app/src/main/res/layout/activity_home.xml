@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.driverjemputyuk.activity_home"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="MissingConstraints"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logo"
+                    android:layout_marginBottom="60dp"/>
+            </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="35dp"
+            android:paddingTop="30dp"
+            android:paddingRight="35dp"
+            android:layout_marginBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_cekpoin"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/coin"
+                    android:onClick="buttonCekpoin"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/tv_cekpoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/menu1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_validasi"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/validasi"
+                    android:onClick="buttonValidasi"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/tv_validasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/menu2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_notifikasi"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/notif"
+                    android:onClick="buttonNotifikasi"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/tv_notifikasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/menu3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="35dp"
+            android:paddingTop="30dp"
+            android:paddingRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_pengingat"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/kalender"
+                    android:onClick="buttonPengingat"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/tv_pengingat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/menu4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_akunsaya"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/user"
+                    android:onClick="buttonAkunsaya"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/tv_akunsaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/menu5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_bantuan"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/bantuan"
+                    android:onClick="buttonBantuan"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/tv_bantuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/menu6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
